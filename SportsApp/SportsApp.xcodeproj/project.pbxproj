@@ -12,7 +12,7 @@
 		D7B3A81A09AB0FE49DD8DE66 /* Pods_SportsApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9200ABA82EE6E996F5BB8D6D /* Pods_SportsApp.framework */; };
 		E72482662BF51155005A4D47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72482652BF51155005A4D47 /* AppDelegate.swift */; };
 		E72482682BF51155005A4D47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72482672BF51155005A4D47 /* SceneDelegate.swift */; };
-		E724826A2BF51155005A4D47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72482692BF51155005A4D47 /* ViewController.swift */; };
+		E724826A2BF51155005A4D47 /* SportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E72482692BF51155005A4D47 /* SportsViewController.swift */; };
 		E724826D2BF51155005A4D47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E724826B2BF51155005A4D47 /* Main.storyboard */; };
 		E72482702BF51155005A4D47 /* SportsApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E724826E2BF51155005A4D47 /* SportsApp.xcdatamodeld */; };
 		E72482722BF51157005A4D47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E72482712BF51157005A4D47 /* Assets.xcassets */; };
@@ -50,7 +50,7 @@
 		E72482622BF51155005A4D47 /* SportsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E72482652BF51155005A4D47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E72482672BF51155005A4D47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E72482692BF51155005A4D47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E72482692BF51155005A4D47 /* SportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportsViewController.swift; sourceTree = "<group>"; };
 		E724826C2BF51155005A4D47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E724826F2BF51155005A4D47 /* SportsApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SportsApp.xcdatamodel; sourceTree = "<group>"; };
 		E72482712BF51157005A4D47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,7 +103,6 @@
 				E60DA3D9E36ABC2550C55E5C /* Pods-SportsAppTests.debug.xcconfig */,
 				D921027217365BE2549A7748 /* Pods-SportsAppTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -132,14 +131,14 @@
 		E72482642BF51155005A4D47 /* SportsApp */ = {
 			isa = PBXGroup;
 			children = (
-				E724829E2BF511A1005A4D47 /* Utilities */,
-				E724829B2BF51186005A4D47 /* Services */,
 				E724829A2BF51181005A4D47 /* Model */,
+				E724829B2BF51186005A4D47 /* Services */,
 				E72482992BF5117B005A4D47 /* Modules */,
 				E72482982BF51175005A4D47 /* Views */,
+				E724829E2BF511A1005A4D47 /* Utilities */,
 				E72482652BF51155005A4D47 /* AppDelegate.swift */,
 				E72482672BF51155005A4D47 /* SceneDelegate.swift */,
-				E72482692BF51155005A4D47 /* ViewController.swift */,
+				E72482692BF51155005A4D47 /* SportsViewController.swift */,
 				E724826B2BF51155005A4D47 /* Main.storyboard */,
 				E72482712BF51157005A4D47 /* Assets.xcassets */,
 				E72482732BF51157005A4D47 /* LaunchScreen.storyboard */,
@@ -522,7 +521,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E724826A2BF51155005A4D47 /* ViewController.swift in Sources */,
+				E724826A2BF51155005A4D47 /* SportsViewController.swift in Sources */,
 				E72482662BF51155005A4D47 /* AppDelegate.swift in Sources */,
 				E72482702BF51155005A4D47 /* SportsApp.xcdatamodeld in Sources */,
 				E72482682BF51155005A4D47 /* SceneDelegate.swift in Sources */,
